@@ -1,6 +1,14 @@
-# SpillWatch
+<p align="center">
+  <img src="assets/banner.png" alt="spillwatch" width="100%">
+</p>
 
-![CI](https://github.com/zandenkane/spillwatch/actions/workflows/ci.yml/badge.svg)
+<p align="center">
+  <a href="https://github.com/zandenkane/spillwatch/actions/workflows/ci.yml"><img src="https://github.com/zandenkane/spillwatch/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white" alt="typescript">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
+</p>
+
+# SpillWatch
 
 someone is dumping mystery liquid into the creek behind your house. you call the state. they say they will look into it. they do not look into it. the creek smells like batteries now.
 
