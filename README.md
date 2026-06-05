@@ -29,6 +29,12 @@ Here is what is actually in the code right now:
 - **Summary statistics** across reports, incidents, and agencies
 
 
+
+<p align="center">
+  <img src="assets/scores.png" alt="agency accountability scores" width="90%">
+</p>
+
+
 ## how it works
 
 ```mermaid
