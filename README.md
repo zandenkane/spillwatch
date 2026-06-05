@@ -2,9 +2,9 @@
 
 ![CI](https://github.com/zandenkane/spillwatch/actions/workflows/ci.yml/badge.svg)
 
-Someone is dumping waste into your creek. You call the state hotline. Nothing happens. You fill out an EPA form. It vanishes. You post about it online. Nobody cares by Thursday.
+someone is dumping mystery liquid into the creek behind your house. you call the state. they say they will look into it. they do not look into it. the creek smells like batteries now.
 
-I got tired of watching that cycle repeat. So I built this.
+spillwatch lets communities report environmental incidents with GPS coordinates, upload photo evidence, and track whether the responsible government agency actually does anything about it. spoiler: it scores them on response time so you can see exactly how much they do not care.
 
 ## What It Does
 
