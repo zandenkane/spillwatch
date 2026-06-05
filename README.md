@@ -20,6 +20,33 @@ Here is what is actually in the code right now:
 - **Presigned S3 uploads** for photos so large files never touch the app server
 - **Summary statistics** across reports, incidents, and agencies
 
+
+## how it works
+
+```mermaid
+graph TD
+    R[Community report with GPS + photo] --> V[Validation + geocoding]
+    V --> C[Clustering engine]
+    C --> I[Incident group]
+    I --> N[Agency notification]
+    N --> T[Response timer starts]
+    T --> S[Accountability score updated]
+
+    style R fill:#ff6b6b
+    style S fill:#51cf66
+```
+
+```
+$ curl localhost:3000/api/stats
+{
+  "total_reports": 847,
+  "open_incidents": 23,
+  "agencies_tracked": 14,
+  "avg_response_days": 12.4,
+  "worst_agency": "County Water Authority (avg 34 days)"
+}
+```
+
 ## Stack
 
 - Next.js 14 with App Router (TypeScript)
